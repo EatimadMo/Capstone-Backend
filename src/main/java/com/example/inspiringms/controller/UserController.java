@@ -9,6 +9,8 @@ import java.util.List;
 import java.util.Optional;
 
 //@CrossOrigin(origins = "http:/localhost:8080")
+@CrossOrigin(origins = "https://inspirehope.herokuapp.com")
+
 @RestController
 @RequestMapping(path = "api/inspir")
 public class UserController<userService> {

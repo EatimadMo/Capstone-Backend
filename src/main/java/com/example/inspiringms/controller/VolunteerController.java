@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin(origins = "https://inspirehope.herokuapp.com")
 
 @RestController
 @RequestMapping(path = "api/volunteer")
